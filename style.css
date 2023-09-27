@@ -1,0 +1,333 @@
+.frontpage {
+  background-color: #e9ecef;
+  height:min-content;
+  padding-bottom: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.frontpage .logo{
+  max-width:60px;
+  padding-top: 5%;
+}
+.frontpage h1{
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 7%;
+  font-weight: bold;
+}
+.frontpage p{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
+  line-height: 1.7;
+  color: rgb(82, 82, 82);
+}
+.frontpage .kidimg{
+  max-width:100%;
+}
+.frontpage button{
+    width: 100%;
+    font-size:18px;
+    padding: 1%;
+}
+/* second section */
+.secondsec {
+  padding-top: 8%;   
+  padding-left: 7%;
+  margin-bottom: 10%;
+}
+.secondsec hr{
+  width: 93%;
+    opacity: 0.1;
+}
+.secondsec h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;  
+}
+.secondsec .Learnsec{
+margin-top:6%;
+}
+.secondsec .Learnsec h6{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.secondsec .Learnsec p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.secondsec .Learnsec button {
+  border: none;
+  background-color: transparent;
+}
+.secondsec .Learnsec button img{
+  width: 70%;
+}
+.asking img{
+  padding-top: 10%;
+  padding-bottom: 15%;
+  max-width: 70%;
+}
+.asking button{
+  margin-top: 2%;
+  padding: 2%;
+
+}
+/* custom css */
+
+/* ----- MODAL STYLE ----- */
+.modal-header .img-logo {
+  position: relative;
+  top: 25px;
+  padding-left:5%;
+}
+.modal-header {
+  border-bottom-color: #e9ecef;
+  background-color: #e9ecef;
+  height: 65px;
+}
+.modal-body p,a,h5,ul,li{
+ padding-left: 5%;
+ padding-right: 5%;
+}
+.modal-body h3 {
+  font-weight: bold;
+  margin-top: 25px;
+  line-height: 1.5;
+ padding-left: 5%;padding-right: 5%;
+ }
+.modal-body h4 {
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.modal-body a {
+  color: #333;
+}
+.modal-dialog {
+  position: fixed; 
+  width: auto;
+  margin: 0px!important;
+  pointer-events: none!important;
+  height: 100%;
+  background: white;
+}
+.modal-content {
+  box-shadow: none !important; 
+  outline: none !important; 
+  border: none !important; 
+    text-align: justify;
+ 
+ 
+}
+.question .btn {
+  width: 100%;
+  display: block;
+}
+.question .row {
+  display: none;
+}
+.question .active {
+  display: block;
+}
+
+.img-logo {
+  width: 80px;
+}
+.container {
+  padding: 0px;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 420px;
+}
+.item-list li {
+  font-size: 14px;
+  margin-bottom: 22px;
+  line-height: 18px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.question h3 {
+  font-weight: bold;
+  margin-top: 23px;
+}
+.results h2{
+  padding-top: 10%;
+  font-weight: bolder;
+}
+.results ol li{
+  margin-left: 8%;
+  line-height: 2;
+  
+}
+.results ol{
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+/* /media query/ */
+
+@media only screen and (max-width:1700px) and (min-width:1501px){
+  .frontpage h1{
+    font-size: 80px;
+  }
+  .frontpage p{
+    font-size: 18px;
+  }
+  .frontpage .kidimg{
+    max-width:70%;
+  }
+  .secondsec .Learnsec h6{
+    font-size: 24px;
+  }
+  .modal-dialog {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+.img-logo{
+  width: 140px;
+}
+.asking img{
+  max-width: 23%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+.asking h4{
+  font-size: 1.7rem;
+}
+.asking button{
+  font-size: 20px;
+}
+.item-list li {
+  font-size: 22px;
+}
+.modal-body p{
+  font-size: 21px;
+}
+.results h2{
+  padding-top: 3%;
+  font-size: 36px;
+}
+.results ol li{
+  margin-left: 2%;
+  line-height: 2.5;
+  font-size: 22px;
+}
+.results ol{
+  padding-top:2%;
+  padding-bottom: 2%;
+}
+.results p{
+  padding-left: 1%;
+}
+}
+@media only screen and (max-width:1500px) and (min-width:993px){
+  .frontpage h1{
+    font-size: 60px;
+  }
+  .frontpage .kidimg{
+    max-width:65%;
+  }
+  .secondsec .Learnsec h6{
+    font-size: 24px;
+  }
+  .modal-dialog {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+.img-logo{
+  width: 125px;
+}
+.asking img{
+  max-width: 25%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+.asking h4{
+  font-size: 1.7rem;
+}
+.item-list li {
+  font-size: 20px;
+}
+.modal-body p{
+  font-size: 20px;
+}
+.results h2{
+  padding-top: 3%;
+}
+.results ol li{
+  margin-left: 3%;
+  line-height: 2.5;
+  font-size: 20px;
+}
+.results ol{
+  padding-top:2%;
+  padding-bottom: 2%;
+}
+.results p{
+  padding-left: 1%;
+}
+}
+@media only screen and (max-width:992px) and (min-width:767px) {
+  .frontpage .kidimg{
+    max-width:65%;
+  }
+  .secondsec .Learnsec h6{
+    font-size: 22px;
+  }
+  .modal-dialog {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+.img-logo{
+  width: 110px;
+}.asking img{
+  padding-top: 1%;
+  max-width: 35%;
+  padding-bottom: 1%;
+}
+.asking h4{
+  font-size: 1.3rem;
+}
+.results h2{
+  padding-top: 4%;
+}
+.results ol li{
+  margin-left: 6%;
+  line-height: 2.5;
+  font-size: 18px;
+}
+.results ol{
+  padding-top:2%;
+  padding-bottom: 2%;
+}
+.results p{
+  padding-left: 1%;
+  font-size: 18px;
+}
+}
+
+@media screen and (max-width:766px) {
+  .modal-dialog {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+.secondsec .Learnsec p{
+  font-size: 12px;
+}
+.asking img{
+  padding-top: 1%;
+  max-width: 50%;
+  padding-bottom: 1%;
+}
+.asking h4{
+  font-size: 1.2rem;
+}
+}
+
+@media screen and (max-width:500px){
+.frontpage p{
+  font-size: 12px;
+}
+}
